@@ -1,0 +1,34 @@
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 15px 60px;
+}
+
+.menu {
+  margin-right: 30px;
+}
+
+.menu a {
+  font-family: 'magistros';
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.menu a:last-child {
+  background-color: #F8222A;
+  padding: 10px;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.menu a i {
+  color: #FFFE01;
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1342" height="65.5" viewBox="0 0 1342 65.5">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #055b05;
+      }
+
+      .cls-4 {
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#363630"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#055b05"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-1">
+    <rect id="Rounded_Rectangle_6" data-name="Rounded Rectangle 6" class="cls-2" y="28.25" width="1342" height="8" rx="4" ry="4"/>
+    <rect id="Rounded_Rectangle_5_copy_6" data-name="Rounded Rectangle 5 copy 6" class="cls-3" x="104" width="60.156" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_7" data-name="Rounded Rectangle 5 copy 7" class="cls-3" x="318" width="60.156" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_8" data-name="Rounded Rectangle 5 copy 8" class="cls-3" x="533" width="60.156" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_9" data-name="Rounded Rectangle 5 copy 9" class="cls-3" x="747" width="60.16" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_10" data-name="Rounded Rectangle 5 copy 10" class="cls-3" x="962" width="60.16" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_11" data-name="Rounded Rectangle 5 copy 11" class="cls-3" x="1176" width="60.16" height="65.5" rx="10" ry="10"/>
+  </g>
+  <g id="Group_21_copy" data-name="Group 21 copy" class="cls-4">
+    <rect id="Rounded_Rectangle_6-2" data-name="Rounded Rectangle 6" class="cls-2" y="28.25" width="1342" height="8" rx="4" ry="4"/>
+    <rect id="Rounded_Rectangle_5_copy_6-2" data-name="Rounded Rectangle 5 copy 6" class="cls-3" x="104" width="60.156" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_7-2" data-name="Rounded Rectangle 5 copy 7" class="cls-3" x="318" width="60.156" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_8-2" data-name="Rounded Rectangle 5 copy 8" class="cls-3" x="533" width="60.156" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_9-2" data-name="Rounded Rectangle 5 copy 9" class="cls-3" x="747" width="60.16" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_10-2" data-name="Rounded Rectangle 5 copy 10" class="cls-3" x="962" width="60.16" height="65.5" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_5_copy_11-2" data-name="Rounded Rectangle 5 copy 11" class="cls-3" x="1176" width="60.16" height="65.5" rx="10" ry="10"/>
+  </g>
+</svg>
