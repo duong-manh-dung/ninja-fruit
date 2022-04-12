@@ -3,7 +3,6 @@
 }
 
 /* VFRUIT BEGIN */
-
 .vfruit {
   width: 100%;
   position: relative;
@@ -59,11 +58,8 @@
 }
 
 /* VFRUIT END */
-
 /* ========================= */
-
 /* MAIN-WELCOME BEGIN */
-
 .main-welcome {
   padding: 30px 150px 30px 60px;
   background-color: #fff;
@@ -108,16 +104,13 @@
   margin: 0 0 0 20px;
 }
 
-.download-app a img{
+.download-app a img {
   width: 150px;
 }
 
 /* MAIN-WELCOME END */
-
 /* ========================= */
-
 /* PLAY-TO-EARN BEGIN */
-
 .play-to-earn {
   width: 100%;
   margin-bottom: -4px;
@@ -143,11 +136,8 @@
 }
 
 /* PLAY-TO-EARN BEGIN */
-
 /* ========================= */
-
 /* MODE-AND-ROAD BEGIN */
-
 .mode-and-road {
   width: 100%;
 }
@@ -156,7 +146,6 @@
   width: 100%;
   background-image: url('../img/blue-background.svg');
   background-size: cover;
-
 }
 
 .mode-content {
@@ -273,11 +262,8 @@
 }
 
 /* MODE-AND-ROAD END */
-
 /* ========================= */
-
 /* GAME_PICTURE BEGIN */
-
 .game-picture {
   width: 100%;
   background-color: #CDFEE1;
@@ -306,11 +292,8 @@
 }
 
 /* GAME_PICTURE END */
-
 /* ========================= */
-
 /* TEAM BEGIN */
-
 .team {
   width: 100%;
   padding: 60px;
@@ -385,11 +368,8 @@
 }
 
 /* TEAM END */
-
 /* ========================= */
-
 /* TOKENOMIC BEGIN */
-
 .tokenomic {
   width: 100%;
   background-color: #1D372A;
@@ -437,11 +417,8 @@
 }
 
 /* TOKENOMIC END */
-
 /* ========================= */
-
 /* BANK BEGIN */
-
 .bank {
   display: flex;
   flex-direction: column;
@@ -478,5 +455,274 @@
 }
 
 /* BANK END */
-
 /* ========================= */
+@media (max-width: 1285px) {
+  .basic-button {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .vfruit-button {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 24px;
+  }
+
+  .play-button {
+    padding: 5px 0;
+    background-color: #2c2c2c;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #646464;
+    border-radius: 5px;
+  }
+
+  .play-button a {
+    font-family: 'magistros';
+    color: #67ecbf;
+    text-decoration: none;
+    font-size: 12px;
+    text-shadow: 0 2px 0 #000;
+  }
+
+  .basic-button {
+    margin-top: 20px;
+  }
+
+  .basic-button a {
+    margin: 0px 15px;
+  }
+
+  .basic-button a img {
+    width: 50px;
+  }
+
+  .main-welcome {
+    padding: 30px 10px 30px 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ninja-with-sword {
+    margin-right: 10px;
+  }
+
+  .ninja-with-sword img {
+    width: 100px;
+  }
+
+  .welcome-text p:first-child {
+    font-family: 'magistros';
+    color: #07CF55;
+    font-size: 12px;
+  }
+
+  .welcome-text p:nth-child(2) {
+    font-family: 'magistros';
+    color: #321A02;
+    font-size: 16px;
+  }
+
+  .welcome-text p:last-child {
+    font-family: 'utm-avo';
+    color: #D1D1D1;
+    font-size: 8px;
+  }
+
+  .download-app a img {
+    width: 50px;
+  }
+
+  .play-text a {
+    font-family: 'magistros';
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .mode-content {
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .mode-content p:first-child {
+    font-size: 12px;
+    color: #07CF55;
+  }
+
+  .mode-content p:nth-child(2) {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .mode-content p:last-child {
+    font-family: 'utm-avo';
+    font-size: 8px;
+    color: #D1D1D1;
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .mode-detail {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 60px;
+  }
+
+  .mode-detail div {
+    margin: 0 10px;
+  }
+
+  .mode-detail div img {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+
+  .mode-detail div p {
+    font-size: 8px;
+  }
+
+  .road-title {
+    padding: 30px;
+  }
+
+  .road-title p {
+    font-size: 16px;
+  }
+
+  .road-img {
+    padding: 0 5px;
+  }
+
+  .road-travel {
+    padding-bottom: 30px;
+  }
+
+  .point-road {
+    width: 35px;
+    margin: 30px 5px;
+  }
+
+  .time-road {
+    width: 30px;
+    padding: 5px 0;
+  }
+
+  .point-road p:last-child {
+    font-size: 5px;
+  }
+
+  .time-road p {
+    font-size: 5px;
+  }
+
+  .game-picture-title {
+    padding: 30px;
+  }
+
+  .game-picture-title p:first-child {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .game-picture-title p:last-child {
+    font-size: 16px;
+  }
+
+  .slideshow-container {
+    margin: auto 20px !important;
+  }
+
+  .team {
+    padding: 30px 10px;
+  }
+
+  .team-title {
+    margin-bottom: 30px;
+  }
+
+  .team-title p:first-child {
+    font-size: 12px;
+  }
+
+  .team-title p:last-child {
+    font-size: 16px;
+  }
+
+  .member {
+    margin: 15px;
+    margin-bottom: 30px;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .info-title {
+    padding: 5px;
+  }
+
+  .info-title p {
+    font-size: 12px;
+  }
+
+  .info p {
+    margin: 5px 5px;
+    font-size: 5px;
+  }
+
+  .token-title {
+    padding: 30px;
+  }
+
+  .token-title p {
+    font-size: 12px;
+  }
+
+  .token-title p:last-child {
+    font-size: 16px;
+  }
+
+  .tokenomic-content {
+    padding-bottom: 30px;
+  }
+
+  .tokenomic-img img {
+    width: 100px;
+  }
+
+  .tokenomic-text div {
+    width: 50px;
+  }
+
+  .tokenomic-text div p {
+    font-size: 5px;
+  }
+
+  .bank-title {
+    margin: 30px;
+  }
+
+  .bank-title p {
+    font-size: 12px;
+  }
+
+  .bank-title p:last-child {
+    font-size: 16px;
+  }
+
+  .bank-img img {
+    width: 80%;
+  }
+}
