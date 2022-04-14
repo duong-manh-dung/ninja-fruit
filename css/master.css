@@ -1,40 +1,39 @@
 @font-face {
-  font-family: 'magistros';
-  src: url('../magistros/Magistros.ttf');
+    font-family: 'magistros';
+    src: url('../magistros/Magistros.ttf');
 }
 
 @font-face {
-  font-family: 'magistros-italic';
-  src: url('../magistros/Magistros-Italic.ttf');
+    font-family: 'magistros-italic';
+    src: url('../magistros/Magistros-Italic.ttf');
 }
 
 @font-face {
-  font-family: 'magistros-light';
-  src: url('../magistros/Magistros-Light.ttf');
+    font-family: 'magistros-light';
+    src: url('../magistros/Magistros-Light.ttf');
 }
 
 @font-face {
-  font-family: 'magistros-light-italic';
-  src: url('../magistros/Magistros-LightItalic.ttf');
+    font-family: 'magistros-light-italic';
+    src: url('../magistros/Magistros-LightItalic.ttf');
 }
 
 @font-face {
-  font-family: 'magistros-3d';
-  src: url('../magistros/Magistros3D.ttf');
+    font-family: 'magistros-3d';
+    src: url('../magistros/Magistros3D.ttf');
 }
 
 @font-face {
-  font-family: 'utm-avo';
-  src: url('../utm-avo/UTM Avo.ttf');
+    font-family: 'utm-avo';
+    src: url('../utm-avo/UTM Avo.ttf');
 }
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body {
-  font-family: 'magistros';
+body, #wrapper, #header, #main, #footer {
+    width: 100%;
 }

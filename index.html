@@ -2,363 +2,420 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ninja Fruit</title>
-  <link rel="stylesheet" href="font-awesome-pro-master/css/all.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/slideshow.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/master.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Fruit</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js"></script>
 </head>
 
 <body>
-  <div id="wrapper">
-    <header id="header">
-      <div class="logo">
-        <img src="img/logo.png" alt="">
-      </div>
-      <div class="toggle">
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu">
-        <a href="">welcome to vfruit</a>
-        <a href="">about us</a>
-        <a href="">contact us</a>
-        <a href="">roadmap</a>
-        <a href="">market</a>
-        <a href="">
-          play now <i class="fas fa-caret-right"></i>
-        </a>
-      </div>
-    </header>
-    <main id="main">
-      <div class="vfruit">
-        <div class="vfruit-img">
-          <img src="img/vfruit.svg" alt="">
-        </div>
-        <div class="vfruit-button">
-          <div class="play-button">
-            <a href="">play to make money</a>
-          </div>
-          <div class="basic-button">
-            <a href=""><img src="img/play-on-web.png" alt=""></a>
-            <a href=""><img src="img/play-android.png" alt=""></a>
-            <a href=""><img src="img/play-ios.png" alt=""></a>
-          </div>
-        </div>
-      </div>
-      <div class="main-welcome">
-        <div class="ninja-with-sword">
-          <img src="img/ninja-with-sword.png" alt="">
-        </div>
-        <div class="welcome-content">
-          <div class="welcome-text">
-            <p>welcome to vfruit</p>
-            <p>lorem ipsum</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-          </div>
-          <div class="download-app">
-            <a>
-              <img src="img/google-play.png" alt="">
-            </a>
-            <a>
-              <img src="img/app-store.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="play-to-earn">
-        <img src="img/play-to-earn.svg" alt="">
-        <div class="play-text">
-          <a href="">play to earn</a>
-        </div>
-      </div>
-      <div class="mode-and-road">
-        <div class="mode">
-          <div class="mode-content">
-            <p>3 mode to play</p>
-            <p>lorem ipsum</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-          </div>
-          <div class="mode-detail">
-            <div class="classic">
-              <a href=""><img src="img/classic.svg" alt=""></a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+    <div id="wrapper">
+        <header id="header">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
             </div>
-            <div class="pvp">
-              <a href=""><img src="img/pvp.svg" alt=""></a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+            <div id="toggle" class="toggle">
+                <span></span>
+                <span></span>
             </div>
-            <div class="tournament">
-              <a href=""><img src="img/tournament.svg" alt=""></a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+            <div id="menu" class="menu">
+                <a href="">welcome to vfruit</a>
+                <a href="">about us</a>
+                <a href="">contact us</a>
+                <a href="">roadmap</a>
+                <a href="">market</a>
+                <a href="">
+                    play now <i class="fas fa-caret-right"></i>
+                </a>
             </div>
-          </div>
-        </div>
-        <div class="road">
-          <div class="road-title">
-            <p>road map</p>
-          </div>
-          <div class="road-img">
-            <img src="img/road-img.svg" alt="">
-          </div>
-          <div class="road-travel">
-            <div class="point-road">
-              <div class="time-road">
-                <p>3/2021</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </header>
+        <main id="main">
+            <div class="vfruit">
+                <div class="vfruit-img">
+                    <img src="img/vfruit.svg" alt="">
+                </div>
+                <div class="vfruit-button">
+                    <div class="play-button">
+                        <a href="">play to make money</a>
+                    </div>
+                    <div class="basic-button">
+                        <a href=""><img src="img/play-on-web.png" alt=""></a>
+                        <a href=""><img src="img/play-android.png" alt=""></a>
+                        <a href=""><img src="img/play-ios.png" alt=""></a>
+                    </div>
+                </div>
             </div>
-            <div class="point-road">
-              <div class="time-road">
-                <p>3/2021</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="main-welcome">
+                <div class="ninja-with-sword">
+                    <img src="img/ninja-with-sword.png" alt="">
+                </div>
+                <div class="welcome-content">
+                    <div class="welcome-text">
+                        <p>welcome to vfruit</p>
+                        <p>lorem ipsum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. </p>
+                    </div>
+                    <div class="download-app">
+                        <a>
+                            <img src="img/google-play.png" alt="">
+                        </a>
+                        <a>
+                            <img src="img/app-store.png" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="point-road">
-              <div class="time-road">
-                <p>3/2021</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="play-to-earn">
+                <img src="img/play-to-earn.svg" alt="">
+                <div class="play-text">
+                    <a href="">play to earn</a>
+                </div>
             </div>
-            <div class="point-road">
-              <div class="time-road">
-                <p>3/2021</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="mode-and-road">
+                <div class="mode">
+                    <div class="mode-content">
+                        <p>3 mode to play</p>
+                        <p>lorem ipsum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. </p>
+                    </div>
+                    <div class="mode-detail">
+                        <div class="classic">
+                            <a href=""><img src="img/classic.svg" alt=""></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="pvp">
+                            <a href=""><img src="img/pvp.svg" alt=""></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="tournament">
+                            <a href=""><img src="img/tournament.svg" alt=""></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="road">
+                    <div class="road-title">
+                        <p>road map</p>
+                    </div>
+                    <div class="road-img">
+                        <img src="img/road-img.svg" alt="">
+                    </div>
+                    <div class="road-travel">
+                        <div class="point-road">
+                            <div class="time-road">
+                                <p>3/2021</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="point-road">
+                            <div class="time-road">
+                                <p>3/2021</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="point-road">
+                            <div class="time-road">
+                                <p>3/2021</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="point-road">
+                            <div class="time-road">
+                                <p>3/2021</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="point-road">
+                            <div class="time-road">
+                                <p>3/2021</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="point-road">
+                            <div class="time-road">
+                                <p>3/2021</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="point-road">
-              <div class="time-road">
-                <p>3/2021</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="game-picture">
+                <div class="game-picture-title">
+                    <p>in game picture</p>
+                    <p>lorem ipsum</p>
+                </div>
+                <section id="demos">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item-video" data-merge="2">
+                                    <img src="img/slide1.svg">
+                                </div>
+                                <div class="item-video" data-merge="2">
+                                    <img src="img/slide2.svg">
+                                </div>
+                                <div class="item-video" data-merge="2">
+                                    <img src="img/slide3.svg">
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function () {
+                                    $('.owl-carousel').owlCarousel({
+                                        items: 1,
+                                        merge: true,
+                                        loop: true,
+                                        margin: 10,
+                                        lazyLoad: true,
+                                        center: true,
+                                        dots: false,
+                                        responsive: {
+                                            480: {
+                                                items: 2
+                                            },
+                                            600: {
+                                                items: 4
+                                            }
+                                        }
+                                    })
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="point-road">
-              <div class="time-road">
-                <p>3/2021</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="team">
+                <div class="team-title">
+                    <p>team</p>
+                    <p>lorem ipsum</p>
+                </div>
+                <div class="members">
+                    <div class="member">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="info-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="info-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="info-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="info-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="info-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="info-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="info-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="game-picture">
-        <div class="game-picture-title">
-          <p>in game picture</p>
-          <p>lorem ipsum</p>
-        </div>
-        <div class="slideshow-container">
-
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img/slide1.svg" style="width:100%">
-            <div class="text">Caption Text</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img/slide2.svg" style="width:100%">
-            <div class="text">Caption Two</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img/slide3.svg" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-
-        </div>
-      </div>
-      <div class="team">
-        <div class="team-title">
-          <p>team</p>
-          <p>lorem ipsum</p>
-        </div>
-        <div class="members">
-          <div class="member">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="">
+            <div class="tokenomic">
+                <div class="token-title">
+                    <p>tokenomic</p>
+                    <p>lorem ipsum</p>
+                </div>
+                <div class="tokenomic-content">
+                    <div class="tokenomic-img">
+                        <img src="img/tokenomic.svg" alt="">
+                    </div>
+                    <div class="tokenomic-text">
+                        <div>
+                            <p style="color: #1069ee;">Lorem ipsum dolor sit amet</p>
+                            <p style="color: #ee13eb;">Lorem ipsum dolor sit amet</p>
+                            <p style="color: #acdb15;">Lorem ipsum dolor sit amet</p>
+                            <p style="color: #ee1311;">Lorem ipsum dolor sit amet</p>
+                            <p style="color: #d9cf15;">Lorem ipsum dolor sit amet</p>
+                            <p style="color: #0bf1ee;">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="info">
-              <div class="info-title">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div class="info-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
+            <div class="bank">
+                <div class="bank-title">
+                    <p>banker partner</p>
+                    <p>lorem ipsum</p>
+                </div>
+                <div class="bank-img">
+                    <img src="img/bank.svg" alt="">
+                </div>
             </div>
-          </div>
-          <div class="member">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="">
+        </main>
+        <footer id="footer">
+            <div class="footer-content">
+                <p>game support</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.</p>
             </div>
-            <div class="info">
-              <div class="info-title">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div class="info-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
+            <div class="footer-contact">
+                <div class="social-contact">
+                    <div>
+                        <a href="">
+                            <img src="img/phone.svg" alt=""> 0128.365.5447</a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="img/facebook.svg" alt=""> facebook/vfruit</a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="img/youtube.svg" alt=""> youtube/vfruit</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="member">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="">
-            </div>
-            <div class="info">
-              <div class="info-title">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div class="info-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="member">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="">
-            </div>
-            <div class="info">
-              <div class="info-title">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div class="info-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="member">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="">
-            </div>
-            <div class="info">
-              <div class="info-title">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div class="info-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="member">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="">
-            </div>
-            <div class="info">
-              <div class="info-title">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div class="info-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="member">
-            <div class="avatar">
-              <img src="img/avatar.png" alt="">
-            </div>
-            <div class="info">
-              <div class="info-title">
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div class="info-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tokenomic">
-        <div class="token-title">
-          <p>tokenomic</p>
-          <p>lorem ipsum</p>
-        </div>
-        <div class="tokenomic-content">
-          <div class="tokenomic-img">
-            <img src="img/tokenomic.svg" alt="">
-          </div>
-          <div class="tokenomic-text">
-            <div>
-              <p style="color: #1069ee;">Lorem ipsum dolor sit amet</p>
-              <p style="color: #ee13eb;">Lorem ipsum dolor sit amet</p>
-              <p style="color: #acdb15;">Lorem ipsum dolor sit amet</p>
-              <p style="color: #ee1311;">Lorem ipsum dolor sit amet</p>
-              <p style="color: #d9cf15;">Lorem ipsum dolor sit amet</p>
-              <p style="color: #0bf1ee;">Lorem ipsum dolor sit amet</p>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-              <p>Lorem ipsum dolor sit amet</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="bank">
-        <div class="bank-title">
-          <p>banker partner</p>
-          <p>lorem ipsum</p>
-        </div>
-        <div class="bank-img">
-          <img src="img/bank.svg" alt="">
-        </div>
-      </div>
-    </main>
-    <footer id="footer">
-      <div class="footer-content">
-        <p>game support</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="footer-contact">
-        <div class="social-contact">
-          <div>
-            <a href="">
-              <img src="img/phone.svg" alt=""> 0128.365.5447</a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="img/facebook.svg" alt=""> facebook/vfruit</a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="img/youtube.svg" alt=""> youtube/vfruit</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
+        </footer>
+    </div>
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js" charset="utf-8"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/js/app.js" charset="utf-8"></script>
+    <script src="js/menu.js" charset="utf-8"></script>
 </body>
-<script src="js/slideshow.js" charset="utf-8"></script>
-</html>

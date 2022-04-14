@@ -1,67 +1,79 @@
 #header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-  margin: 15px 60px;
+    margin: 15px 60px;
 }
 
 .toggle {
-  display: none;
+    display: none;
 }
 
 .toggle span {
-  width: 20px;
-  height: 3px;
-  background-color: #321A02;
-  margin-bottom: 5px;
-  border-radius: 5px;
+    width: 20px;
+    height: 3px;
+    background-color: #321A02;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 .menu {
-  margin-right: 30px;
+    margin-right: 30px;
 }
 
 .menu a {
-  font-family: 'magistros';
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-  margin: 0 15px;
-  font-weight: bold;
+    font-family: 'magistros';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 15px;
+    font-weight: bold;
 }
 
 .menu a:last-child {
-  background-color: #F8222A;
-  padding: 10px;
-  border-radius: 7px;
-  color: #fff;
+    background-color: #F8222A;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
 }
 
 .menu a i {
-  color: #FFFE01;
+    color: #FFFE01;
 }
 
 @media (max-width: 1249px) {
 
-  .logo {
-    margin: 15px 20px;
-  }
+    .logo {
+        margin: 15px 20px;
+    }
 
-  .logo img {
-    width: 30%;
-  }
+    .logo img {
+        width: 30%;
+    }
 
-  .toggle {
-    display: flex;
-    flex-direction: column;
-    margin: 15px 20px;
-  }
+    .toggle {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 20px;
+    }
 
-  .menu {
-    display: none;
-  }
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 52.72px;
+        z-index: 10;
+    }
 }
